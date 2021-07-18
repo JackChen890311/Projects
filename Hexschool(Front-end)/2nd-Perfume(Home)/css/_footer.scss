@@ -1,0 +1,56 @@
+.footer{
+    background-color: $gold;
+    > .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        > .btns{
+            > li{
+                margin: 16px 10px;
+                width: 75px;
+                > a{
+                    width: 100%;
+                    display: inline-block;
+                    color: white;
+                    font-size: $s;
+                    line-height: $medium;
+                    text-align: center;
+                    text-decoration: none;
+                }
+                > a:hover{
+                    background-color:white;
+                    color: $gold;
+                }
+            }
+            @include mobile(){
+                display: none;
+            }
+        }
+        
+        > .logo{
+            display: flex;
+            > a{
+                background: url("../imgs/d’Perfumewhite.png");
+                @include imgClick(128px,38px);
+                margin: 9px 0px;
+            }
+            > p{
+                margin:auto 20px;
+                color: white;
+                font-size: $xs - 2px;
+            }
+            @include mobile(){
+                width: 100%;
+                justify-content: space-between;
+                > a{
+                    margin: auto 0px;
+                }
+                > p{
+                    margin: 30px 0px;
+                }
+            }
+
+        }
+    }
+    
+}
