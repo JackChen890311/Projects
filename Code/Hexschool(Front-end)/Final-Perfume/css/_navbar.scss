@@ -1,0 +1,21 @@
+.nav{
+    background-color: $gold;
+    > .container-xl > .row {
+        width: 100%;
+        > li{
+            > a{
+                width: 100%;
+                color: white;
+                font-size: $s;
+                text-align: center;
+                text-decoration: none;
+            }
+            > a:hover{
+                background-color:white;
+                color: $gold;
+                border-radius: 5px;
+            }
+        }
+    }
+    
+}

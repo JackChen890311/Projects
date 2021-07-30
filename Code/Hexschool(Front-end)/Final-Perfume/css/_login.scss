@@ -1,0 +1,46 @@
+.login{
+    padding: 80px 0px;
+    font-weight: bold;
+    > .infos{
+        
+        > .sub > a{
+            font-size: $xs;
+            color: $gold;
+            text-decoration: none;
+        }
+        > label, input{
+            font-size: $xs;
+        }
+        input{
+            border: 1px solid $lightgray;
+            border-radius: 4px;
+            height: 40px;
+            width: 100%;
+        }
+    }
+    
+    .sub{
+        margin-top: 20px;
+    }
+    
+    .btns{
+        > a{
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 3px;
+            font-weight: normal;
+            font-size: $xs;
+        }
+        > .reg{
+            border: 1px solid $gold;
+            color: $gold;
+        }
+        > .log{
+            background-color: $gold;
+            color: white;
+        }
+    }
+    
+    
+}

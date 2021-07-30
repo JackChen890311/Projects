@@ -1,0 +1,33 @@
+.footer{
+    background-color: $gold;
+    > .container-xl > .row {
+        > .btns{
+            > li{
+                > a{
+                    width: 100%;
+                    color: white;
+                    font-size: $s;
+                    text-align: center;
+                    text-decoration: none;
+                }
+                > a:hover{
+                    background-color:white;
+                    color: $gold;
+                    border-radius: 5px;
+                }
+            }
+        }
+        
+        > .logo{
+            > a{
+                background: url("../imgs/d’Perfumewhite.png");
+                @include imgClick(128px,38px);
+            }
+            > p{
+                color: white;
+                font-size: $xs - 2px;
+            }
+        }
+    }
+    
+}

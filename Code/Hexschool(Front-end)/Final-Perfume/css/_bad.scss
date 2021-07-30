@@ -1,0 +1,14 @@
+.bad{
+    padding: 140px 0px;
+    > a{
+            max-width: 500px;
+            height: 60px;
+            border: 2px solid $gold;
+            border-radius: 30px;
+            color: $gold;
+            background-color: rgba(0,0,0,0);
+            font-size: $l;
+            text-align: center;
+            text-decoration: none;
+    }
+}
