@@ -1,8 +1,11 @@
 # Simple Taiko Drum Master (Python)
 
-### 使用 Python 中 Pygame 套件製作的小遊戲
+## 摘要
+使用 Python 中 Pygame 套件製作的小遊戲。  
+建議閱讀 Slides 或實際執行程式碼皆可。
 
-主程式為太鼓達人.py  
+## 簡介
+主程式為「太鼓達人.py」  
 若欲執行請先修改路徑 (程式碼中Path變數)  
 
 輸入歌曲名稱 (e.g. Shape of You) 後  

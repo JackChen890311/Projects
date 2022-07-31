@@ -1,8 +1,10 @@
 # Text Similarity Analysis on PTT & Dcard (R)
 
-使用 NLP 技術分析 PTT 與 Dcard 上不同主題論壇的文章相似度。
+## 摘要
+使用 NLP 技術分析 PTT 與 Dcard 上不同主題論壇的文章相似度。  
+建議閱讀 Slides 即可。
 
-## 原始碼說明文件
+## 原始碼與方法說明
 
 * 一共有五份文件：
 	* Gossiping.R
