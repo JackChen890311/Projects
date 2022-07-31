@@ -89,14 +89,13 @@ li{
     text-align: left;
     border-left: 1px solid #96A9C4;
     width: 60%;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
-.edu > ul,.exp > ul{
+.pro > ul, .edu > ul,.exp > ul{
     text-align: left;
-    border-left: 1px solid #96A9C4;
-    padding-left: 30px;
-    margin-top: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
 }
 
 .skill > .container{
@@ -109,7 +108,6 @@ li{
 .lh0{
     line-height: 0;
 }
-
 
 
 .is i{
@@ -142,7 +140,6 @@ h2,h3,h4,h5,p,a,li,input,span{
     display: inline-block;
     width: 100%;
     text-decoration: none;
-    // color: #415165;
     color: white;
 }
 
@@ -152,3 +149,11 @@ h2,h3,h4,h5,p,a,li,input,span{
     color: #415165;
 }
 
+.pro > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.pro > ul > li > a:hover{
+    text-decoration: underline;
+}
