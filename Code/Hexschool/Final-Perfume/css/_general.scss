@@ -1,0 +1,44 @@
+body *{
+    font-size: $m;
+    line-height: $medium;
+}
+
+.lh-0{
+    line-height: 0;
+}
+
+.btns{
+    display:flex;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+// *{
+//     outline: 1px solid black;
+// }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+h2{font-size: $xl;}
+h3{font-size: $l;}
+h4{font-size: $m;}
+h5{font-size: $s;}
+h6{font-size: $xs;}
+
+h2,h3,h4{font-weight: bold;}
+
+h2,h3,h4,h5,h6,p,a,li,input,label,select{
+    font-family: -apple-system, BlinkMacSystemFont, PingFangTC-Regular, sans-serif;
+}
+

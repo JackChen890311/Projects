@@ -1,0 +1,55 @@
+.ft{
+    padding: 60px 20px;
+    p{
+        font-size: $s;
+    }
+    > li{
+        > .text_b{
+            padding: 0 8%;
+            @include pad(){
+                padding: 0 4%;
+            }
+            > span > a{
+                font-size: $xs;
+                color: $gold;
+                text-decoration: none;
+            }
+        }
+        > .text_bs{
+            padding: 0 4%;
+            @include pad(){
+                padding: 0 2%;
+            }
+            > li > p{
+                font-size: $xs;
+                margin-bottom: 50px;
+            }
+            > a{
+                font-size: $s;
+                line-height: $high + 1;
+                font-weight: bold;
+                background-color: rgba(0,0,0,0);
+                border: 2px solid black;
+                color: black;
+                border-radius: 30px;
+                max-width: 350px;
+                height: 60px;
+            }
+        }
+        @include pad(){
+            > .text_b > p{
+                    margin-bottom: 8px;
+            }
+            > .text_bs{
+                > p{
+                    margin-bottom: 20px;
+                }
+                > a{
+                    font-size: $xs;
+                    line-height: 3.75;
+                }
+            }
+           
+        }
+    }
+} 

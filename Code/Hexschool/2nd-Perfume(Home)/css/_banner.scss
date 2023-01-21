@@ -1,0 +1,50 @@
+.banner{
+    background: url("../imgs/index1.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    height: 880px;
+    @include mobile{
+        height: 600px;
+    }
+    @include mobile_smaller{
+        height: 400px;
+        background-position: 40%;
+    }
+    > .container > .text_w{
+        color:white;
+        width: 40%;
+        float: right;
+        margin: 300px 0px;
+        padding: 0px 20px;
+        > input{
+            width: 320px;
+            height: 60px;
+            border: 2px solid white;
+            border-radius: 30px;
+            margin: 16px 0px;
+            color: white;
+            background-color: rgba(0,0,0,0);
+            font-size: $l;
+        }
+        @include mobile{
+            width: 95%;
+            margin: 200px 0px;
+            padding: 0px 15px;
+        }
+        @include mobile_smaller{
+            width: 95%;
+            margin: 100px 0px;
+            padding: 0px 10px;
+            > h2{
+                font-size: $l;
+            }
+            > p{
+                font-size: $s;
+            }
+            > input{
+                font-size: $m + 4px;
+            }
+        }
+    }
+}

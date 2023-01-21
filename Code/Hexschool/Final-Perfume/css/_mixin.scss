@@ -1,0 +1,21 @@
+@mixin imgClick($w,$h){
+    display:block;
+    width: $w;
+    height: $h;
+    text-indent: 101%;
+    overflow:hidden;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+}
+
+@mixin pad(){
+    @media(max-width:768px){
+        @content;
+    }
+}
+
+@mixin mobile(){
+    @media(max-width:375px){
+        @content;
+    }
+}

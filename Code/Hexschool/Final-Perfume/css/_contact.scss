@@ -1,0 +1,39 @@
+.contact{
+    background: url(../imgs/index10.jpg);
+    background-size: cover; 
+    background-position: center;
+    height: 600px;
+    > .container-xl > .row{
+        padding-top: 300px;
+        > h3{
+            color: $gray;
+            @include mobile(){
+                font-size: $m;
+            }
+        }
+        > .inputs{
+            > input{
+                font-size: $xs;
+                height: 60px;
+                @include mobile(){
+                    height: 50px;
+                }
+            }
+            > input[type='email']{
+                width: 65%;
+                border: 2px solid $gold;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            > input[type='submit']{
+                width: 35%;
+                color:white;
+                background-color: $gold;
+                border: 2px solid $gold;
+                border-radius: 0px 4px 4px 0px;
+                box-sizing: border-box;
+            }
+            
+        } 
+    } 
+}

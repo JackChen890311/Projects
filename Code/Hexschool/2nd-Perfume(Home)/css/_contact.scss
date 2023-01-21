@@ -1,0 +1,47 @@
+.contact{
+    background: url(../imgs/index10.jpg);
+    background-size: cover; 
+    background-position: center;
+    height: 600px;
+    > .container{
+        padding-top: 300px;
+        padding-left: 30px;
+        > h3{
+            color: $gray;
+        }
+        > .inputs{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            > input{
+                font-size: $xs;
+                height: 60px;
+            }
+            > input[type='email']{
+                margin: 0;
+                padding: 16px;
+                width: 65%;
+                border: 2px solid $gold;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            > input[type='submit']{
+                margin: 0;
+                width: 33%;
+                color:white;
+                background-color: $gold;
+                border: 2px solid $gold;
+                border-radius: 0px 4px 4px 0px;
+                box-sizing: border-box;
+            }
+        } 
+        @include mobile(){
+            padding-left: 0px;
+            >h3, >.inputs{
+                width: 92%;
+                margin: 10px auto;
+            }
+        }
+    } 
+}
