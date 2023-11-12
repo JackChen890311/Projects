@@ -5,7 +5,7 @@
 
 ## 相關連結
 - [完整版履歷](https://docs.google.com/document/d/1y3-RGskAtDnl6C83Bwbq_pf8jhSI5daDFfzD9RlFZ50/edit)
-- [個人網站](https://jackchen890311.github.io/Website/)
+- [個人網站](https://jackchen890311.github.io/)
 - [簡易網頁履歷](https://jackchen890311.github.io/Projects/index.html)
   
 ## 備註
